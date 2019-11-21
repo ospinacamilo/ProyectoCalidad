@@ -1,0 +1,345 @@
+[19-Nov-2019 22:37:23 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:37:23 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:37:23 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:37:23 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:37:23 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:38:34 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:38:34 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:38:34 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:38:34 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:38:34 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:38:41 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:38:41 UTC] PHP Strict Standards:  Non-static method UsuariosModel::getUsuariosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/usuariosController/usuariosController.php on line 9
+[19-Nov-2019 22:38:41 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/usuariosModel/usuariosModel.php on line 11
+[19-Nov-2019 22:38:47 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:38:47 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:38:47 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:38:47 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:38:47 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:39:39 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:39:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:39:53 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:39:53 UTC] PHP Strict Standards:  Non-static method CategoriasModel::getCategoriasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/categoriasController/categoriasController.php on line 27
+[19-Nov-2019 22:39:53 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/categoriasModel/categoriasModel.php on line 28
+[19-Nov-2019 22:40:06 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:40:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:40:22 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:40:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:41:04 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:41:07 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:41:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/ventasDiarias/ventasDiarias.php(4): require('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#4 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#5 /home/synergytec/public_html/proyectocalidad/index.php(23): MvcController->plantilla()
+#6 {main}
+  thrown in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:41:16 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:41:16 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:41:16 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:41:16 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:41:16 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:41:19 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:41:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:41:46 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:41:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:41:47 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:41:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:41:52 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:41:52 UTC] PHP Strict Standards:  Non-static method CategoriasModel::getCategoriasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/categoriasController/categoriasController.php on line 27
+[19-Nov-2019 22:41:52 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/categoriasModel/categoriasModel.php on line 28
+[19-Nov-2019 22:41:57 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:41:57 UTC] PHP Strict Standards:  Non-static method CategoriasModel::getCategoriasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/categoriasController/categoriasController.php on line 27
+[19-Nov-2019 22:41:57 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/categoriasModel/categoriasModel.php on line 28
+[19-Nov-2019 22:41:57 UTC] PHP Strict Standards:  Non-static method CategoriasModel::agregarCategoriasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/categoriasController/categoriasController.php on line 14
+[19-Nov-2019 22:41:57 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/categoriasModel/categoriasModel.php on line 11
+[19-Nov-2019 22:41:57 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:41:57 UTC] PHP Strict Standards:  Non-static method CategoriasModel::getCategoriasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/categoriasController/categoriasController.php on line 27
+[19-Nov-2019 22:41:57 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/categoriasModel/categoriasModel.php on line 28
+[19-Nov-2019 22:42:23 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:42:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:42:34 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:42:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:44:31 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:44:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:44:32 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:44:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:44:47 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:44:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:44:50 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:44:50 UTC] PHP Strict Standards:  Non-static method CategoriasModel::getCategoriasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/categoriasController/categoriasController.php on line 27
+[19-Nov-2019 22:44:50 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/categoriasModel/categoriasModel.php on line 28
+[19-Nov-2019 22:44:54 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:45:03 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:45:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/ventasDiarias/ventasDiarias.php(4): require('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#4 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#5 /home/synergytec/public_html/proyectocalidad/index.php(23): MvcController->plantilla()
+#6 {main}
+  thrown in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:46:05 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:46:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:47:42 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:47:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:48:19 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:48:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:48:40 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:48:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:49:00 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:49:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:49:26 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:49:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(49): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:51:00 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:51:00 UTC] PHP Strict Standards:  Non-static method ProductosModel::getProductosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/productosController/productosController.php on line 7
+[19-Nov-2019 22:51:00 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/productosModel/productosModel.php on line 9
+[19-Nov-2019 22:51:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modal/modal_productos.php(2): require_once('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Views/modules/productos/listadoProd.php(73): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#4 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#5 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#6 /home/synergytec in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:51:26 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:51:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php:2
+Stack trace:
+#0 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php(2): PDO->__construct('mysql:host=loca...', 'root', 'chavalote')
+#1 /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/ventasDiarias/ventasDiarias.php(4): require('/home/synergyte...')
+#2 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(25): require('/home/synergyte...')
+#3 /home/synergytec/public_html/proyectocalidad/Views/template.php(6): MvcController->enlacesPaginasController()
+#4 /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php(7): include('/home/synergyte...')
+#5 /home/synergytec/public_html/proyectocalidad/index.php(23): MvcController->plantilla()
+#6 {main}
+  thrown in /home/synergytec/public_html/proyectocalidad/Views/modules/ventas/conexion.php on line 2
+[19-Nov-2019 22:52:56 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:53:04 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:53:21 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:53:22 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:54:09 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:54:09 UTC] PHP Strict Standards:  Non-static method ProductosModel::getProductosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/productosController/productosController.php on line 7
+[19-Nov-2019 22:54:09 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/productosModel/productosModel.php on line 9
+[19-Nov-2019 22:54:25 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:54:25 UTC] PHP Strict Standards:  Non-static method CategoriasModel::getCategoriasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/categoriasController/categoriasController.php on line 27
+[19-Nov-2019 22:54:25 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/categoriasModel/categoriasModel.php on line 28
+[19-Nov-2019 22:54:33 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:54:34 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:54:34 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:54:34 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:54:34 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:54:56 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:54:56 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:54:56 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:54:56 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::agregarReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 67
+[19-Nov-2019 19:54:56 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 18
+[19-Nov-2019 19:54:56 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:54:56 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:54:56 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:54:56 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:54:56 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:54:56 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:54:56 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:55:03 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:55:03 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:55:03 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:55:03 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:55:03 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:55:15 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:55:15 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:55:15 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:55:15 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:55:15 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:55:18 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:55:22 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:55:22 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:55:22 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:55:22 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:55:22 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:55:33 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:55:39 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:55:39 UTC] PHP Strict Standards:  Non-static method Datos::totalReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 90
+[19-Nov-2019 19:55:39 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 54
+[19-Nov-2019 19:55:39 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Datos::getReservasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 36
+[19-Nov-2019 19:55:39 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/reservasModel/reservasModel.php on line 10
+[19-Nov-2019 22:55:43 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 22:55:44 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:00:58 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:01:11 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:01:11 UTC] PHP Strict Standards:  Non-static method ProductosModel::getProductosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/productosController/productosController.php on line 7
+[19-Nov-2019 23:01:11 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/productosModel/productosModel.php on line 9
+[19-Nov-2019 23:01:14 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:01:16 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 20:01:16 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method ProductosModel::actualizarProductosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/productosController/productosController.php on line 67
+[19-Nov-2019 20:01:16 America/Argentina/Buenos_Aires] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/productosModel/productosModel.php on line 39
+[19-Nov-2019 23:01:16 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:01:16 UTC] PHP Strict Standards:  Non-static method ProductosModel::getProductosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/productosController/productosController.php on line 7
+[19-Nov-2019 23:01:16 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/productosModel/productosModel.php on line 9
+[19-Nov-2019 23:01:41 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:01:41 UTC] PHP Strict Standards:  Non-static method UsuariosModel::getUsuariosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/usuariosController/usuariosController.php on line 9
+[19-Nov-2019 23:01:41 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/usuariosModel/usuariosModel.php on line 11
+[19-Nov-2019 23:01:44 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:01:44 UTC] PHP Strict Standards:  Non-static method UsuariosModel::getUsuariosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/usuariosController/usuariosController.php on line 9
+[19-Nov-2019 23:01:44 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/usuariosModel/usuariosModel.php on line 11
+[19-Nov-2019 23:01:44 UTC] PHP Strict Standards:  Non-static method UsuariosModel::deleteUsuariosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/usuariosController/usuariosController.php on line 45
+[19-Nov-2019 23:01:44 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/usuariosModel/usuariosModel.php on line 33
+[19-Nov-2019 23:01:44 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:01:44 UTC] PHP Strict Standards:  Non-static method UsuariosModel::getUsuariosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/usuariosController/usuariosController.php on line 9
+[19-Nov-2019 23:01:44 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/usuariosModel/usuariosModel.php on line 11
+[19-Nov-2019 23:01:48 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:01:48 UTC] PHP Strict Standards:  Non-static method UsuariosModel::getUsuariosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/usuariosController/usuariosController.php on line 9
+[19-Nov-2019 23:01:48 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/usuariosModel/usuariosModel.php on line 11
+[19-Nov-2019 23:01:48 UTC] PHP Strict Standards:  Non-static method UsuariosModel::deleteUsuariosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/usuariosController/usuariosController.php on line 45
+[19-Nov-2019 23:01:48 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/usuariosModel/usuariosModel.php on line 33
+[19-Nov-2019 23:01:49 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:01:49 UTC] PHP Strict Standards:  Non-static method UsuariosModel::getUsuariosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/usuariosController/usuariosController.php on line 9
+[19-Nov-2019 23:01:49 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/usuariosModel/usuariosModel.php on line 11
+[19-Nov-2019 23:02:01 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:02:01 UTC] PHP Strict Standards:  Non-static method ProductosModel::getProductosModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/productosController/productosController.php on line 7
+[19-Nov-2019 23:02:01 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/productosModel/productosModel.php on line 9
+[19-Nov-2019 23:02:07 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
+[19-Nov-2019 23:02:07 UTC] PHP Strict Standards:  Non-static method CategoriasModel::getCategoriasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/categoriasController/categoriasController.php on line 27
+[19-Nov-2019 23:02:07 UTC] PHP Strict Standards:  Non-static method Conexion::conectar() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Model/categoriasModel/categoriasModel.php on line 28
+[19-Nov-2019 23:02:11 UTC] PHP Strict Standards:  Non-static method Paginas::enlacesPaginasModel() should not be called statically, assuming $this from incompatible context in /home/synergytec/public_html/proyectocalidad/Controller/reservasController/reservasController.php on line 24
